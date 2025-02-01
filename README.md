@@ -52,7 +52,28 @@ This shows visualization from the customer churn dataset:
 
 # Customer churn
 
-![](churn.png1)
+![](churn.png1.png)
+
+# Customer risk
+
+![](churn.png2.png)
+
+# Services
+
+![](churn.png3.png)
+
+# Insights
+
+- Most of the customers are on monthly basis contract, so the company has more customers on monthly basis than on yearly basis.
+- The churn rate is 26.54% & yearly charges is $16.06M charges, with 7043 customers at risk of being churned.
+- Most of the churned customers signed up for phone services, but didn't sign up for tech support and online backup.
+
+# Recommendations
+
+- Since discount rates are given more on yearly basis or by more users (dependents), the company should enlighten the customers on the benefits of bulk contract on yearly basis instead of on monthly basis.
+- Most of the customers who churned used Fibre Optic amongst others, though pretty expensive, so other internet services should improve on their services.
+- Since most of the company's customers are on monthly contract, discounts should be introduced more on monthly contract to make it easier for customers.
+
   
 
 

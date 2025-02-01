@@ -26,3 +26,33 @@ After cleaning and transformation of the data, the next step is data modelling:
 
 The customer churn tables as show below:
 
+![](churn_model.png.png)
+
+# Data Analysis (DAX)
+Measures used in the visualization includes:
+
+- Count of Churn for No = CALCULATE(COUNTA('01 Churn-Dataset'[Churn]),'01 Churn-Dataset'[Churn] IN { "No" })
+  
+- Count of Churn for Yes = CALCULATE(COUNTA('01 Churn-Dataset'[Churn]),'01 Churn-Dataset'[Churn] IN { "Yes" })
+  
+- Customer churn rate = [Count of Churn for Yes]/[Total customers]
+  
+- Total customers = [Count of Churn for No]+[Count of Churn for Yes]
+
+#  Data Visualization
+Data visualization for the data analysis (DAX) was done using Microsoft Power BI;
+
+The report consists of 3 pages:
+- Customer churn
+- Customer risk
+- Services
+- Insights
+
+This shows visualization from the customer churn dataset:
+
+# Customer churn
+
+![](churn.png1)
+  
+
+
